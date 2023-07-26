@@ -11,4 +11,4 @@ sudo cp ~/bin/pulseaudio-control.bash /bin/
 
 bash ~/bookworm-scripts/resources/ohmyzsh.sh
 
-sudo echo "Hidden=true" >> /etc/xdg/autostart/nm-applet.desktop
+echo 'Hidden=true' | sudo tee /etc/xdg/autostart/nm-applet.desktop
