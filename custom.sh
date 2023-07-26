@@ -10,3 +10,5 @@ sudo cp ~/bin/pulseaudio-control.bash /bin/
 \cp -r dotfiles/.config/rofi/ ~/.config/
 
 bash ~/bookworm-scripts/resources/ohmyzsh.sh
+
+sudo echo "Hidden=true" >> /etc/xdg/autostart/nm-applet.desktop
